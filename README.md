@@ -1,11 +1,21 @@
 # END TO END API TESTING
 
-In this project I did a full API testing with Python. Main purpose was the project was that we have a directory is everything there working as expected or not. for windows app it's like connectors. So if I have the API I can directly do the changes in the directory if I have the OAuth access. I also driven the data with SQL from a database and I use the Mysql connector to connect the SQL with Python. My target was that to write a script that can be so dynamic anyone can use that. all is connected if you need to change the query then you can do it and all the code will be same. It will be same also if you change the Database, columns shiuld be same though. I also use the data to make a JSON file that can be easily handle by the API. Mainly 5 main purpose of the project -
+1. Full API Testing with Python: Conducted thorough API testing using Python to ensure the functionality of the directory (connectors) within the Windows app. The main objective was to verify if all components were working as expected.
+2. Utilization of OAuth Access for Direct Changes: Leveraged OAuth access to directly modify the directory through the API. This enabled efficient implementation of changes and updates within the directory.
+3. Integration of SQL Database with Python: Utilized the MySQL connector to establish a connection between Python and a SQL database. Extracted data from the database using SQL queries to drive the API testing process.
+4. Dynamic Script Development: Developed a dynamic Python script that allows for easy modification of SQL queries without altering the core functionality of the script. This ensures flexibility and ease of use for future users.
+5. JSON Data Generation for API Handling: Generated JSON files from the extracted data to facilitate seamless handling by the API. This ensured efficient communication and interaction between the Python script and the API.
 
-	1. Adding Books,
-	2. Updating Books if needed,
-	3. Verifying all the ISBNs are unique,
-	4. Try to search the book with Book ID,
-	5. The book_iD should be a combination of ISBN and Aisle,
+
+Main Objectives of the Project:
+
+1. Adding Books: Implemented functionality to add new books to the directory via the API.
+2. Updating Books: Provided the capability to update existing books within the directory as required.
+3. Verification of Unique ISBNs: Ensured that all ISBNs within the directory were unique, maintaining data integrity.
+4. Book Search by ID: Enabled searching for specific books within the directory using the Book ID.
+5. Book ID Composition: Defined the composition of the Book ID as a combination of ISBN and Aisle, ensuring uniqueness and clarity in book identification.
+
+
+
 
 
